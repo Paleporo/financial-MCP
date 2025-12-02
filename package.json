@@ -1,0 +1,22 @@
+{
+  "name": "financial-mcp",
+  "version": "1.0.0",
+  "description": "MCP server per monitorare quotazioni ETF basato su Node.js",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "mcp",
+    "etf",
+    "quotes",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  }
+}
